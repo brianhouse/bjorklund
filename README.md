@@ -1,4 +1,5 @@
-EUCLIDEAN RHYTHMS: BJÖRKLUND’S ALGORITHM IN PYTHON
+Euclidean Rhythms: Björklund's Algorithm in Python
+==================================================
 
 After encountering some [buzz](http://ruinwesen.com/blog?id=216) about it online, I read and was inspired by Godfried Toussaint’s paper, [“The Euclidean Algorithm Generates Traditional Musical Rhythms”](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf). In short, he demonstrates how many classic rhythms, particularly of African origin, can be described by a ubiquitous mathematical principle first documented by Euclid and even used for timing patterns in neutron accelerators.
 
