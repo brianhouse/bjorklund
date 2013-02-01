@@ -1,13 +1,5 @@
 #!/usr/bin/env python
 
-#
-# This software is a Python implementation of the algorithm by 
-# E. Bjorklund and found in his paper, 
-# "The Theory of Rep-Rate Pattern Generation in the SNS Timing System." 
-# https://ics-web.sns.ornl.gov/timing/Rep-Rate%20Tech%20Note.pdf
-# 
-# 
-
 def bjorklund(steps, pulses):
     steps = int(steps)
     pulses = int(pulses)
