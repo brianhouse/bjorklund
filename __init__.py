@@ -6,18 +6,6 @@
 # "The Theory of Rep-Rate Pattern Generation in the SNS Timing System." 
 # https://ics-web.sns.ornl.gov/timing/Rep-Rate%20Tech%20Note.pdf
 # 
-# This implementation copyright (c) 2011 Brian House
-# 
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-# 
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-# 
-# See <http://www.gnu.org/licenses/gpl.html> for details.
 # 
 
 def bjorklund(steps, pulses):
