@@ -55,14 +55,3 @@ def bjorklund(steps, pulses):
     i = pattern.index(1)
     pattern = pattern[i:] + pattern[0:i]
     return pattern
-
-
-if __name__ == "__main__":
-    import sys
-    try:
-        steps = int(sys.argv[1])
-        pulses = int(sys.argv[2])
-    except Exception:
-        print("usage: python bjorklund.py <STEPS> <PULSES>")
-    else:  
-        print(bjorklund(steps, pulses))
