@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 def bjorklund(steps, pulses):
     steps = int(steps)
@@ -12,7 +12,7 @@ def bjorklund(steps, pulses):
     remainders.append(pulses)
     level = 0
     while True:
-        counts.append(divisor / remainders[level])
+        counts.append(divisor // remainders[level])
         remainders.append(divisor % remainders[level])
         divisor = remainders[level]
         level = level + 1
@@ -26,7 +26,7 @@ def bjorklund(steps, pulses):
         elif level == -2:
             pattern.append(1)         
         else:
-            for i in xrange(0, counts[level]):
+            for i in range(0, counts[level]):
                 build(level - 1)
             if remainders[level] != 0:
                 build(level - 2)
